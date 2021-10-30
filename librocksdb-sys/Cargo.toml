@@ -31,5 +31,5 @@ uuid = { version = "0.8", features = ["v4"] }
 
 [build-dependencies]
 cc = { version = "1.0", features = ["parallel"] }
-bindgen = { version = "0.59", default-features = false, features = ["runtime"] }
+bindgen = { git = "https://github.com/rust-lang/rust-bindgen", rev = "2aed6b0216805e27228ed39988ffe1a1ffd7e940" , default-features = false, features = ["runtime"] }
 glob = "0.3"
